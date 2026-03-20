@@ -1,0 +1,16 @@
+{
+  "name": "wrangler-vite-v8-coverage-test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.13.3",
+    "@vitest/coverage-istanbul": "^4.1.0",
+    "vitest": "^4.1.0",
+    "wrangler": "^4.76.0"
+  }
+}
